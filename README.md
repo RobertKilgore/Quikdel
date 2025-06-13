@@ -2,6 +2,15 @@
 
 **QuikDel** is a scalable, Q-learning-based framework for optimizing **online food delivery routing** in dynamic, real-time environments. Unlike traditional static planning methods, QuikDel adapts to live order flows using distributed learning agents trained via reinforcement learning. It introduces a hierarchical routing architecture by dividing cities into **hotspots** and **superspots**, enabling efficient coordination among agents and reducing computational overhead.
 
+## Collaborators
+This work is only possible due to the additional hard work of:
+- Md Nahid Hasan
+- Ashman Mehra
+- Yusuf Ozdemir
+- Dr. Vaskar Raychoudhury
+- Dr. Snehanshu Saha
+
+
 ## 🔍 Key Features
 - 🚀 **Real-time routing** for dynamically arriving delivery orders
 - 🧠 **Q-learning agents** trained offline, deployed online for fast decisions
