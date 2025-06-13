@@ -1,2 +1,20 @@
-# Quikdel
-A scalable, distributed Q-learning framework for real-time online food delivery routing using hierarchical city partitioning and autonomous agents.
+# QuikDel
+
+**QuikDel** is a scalable, Q-learning-based framework for optimizing **online food delivery routing** in dynamic, real-time environments. Unlike traditional static planning methods, QuikDel adapts to live order flows using distributed learning agents trained via reinforcement learning. It introduces a hierarchical routing architecture by dividing cities into **hotspots** and **superspots**, enabling efficient coordination among agents and reducing computational overhead.
+
+## 🔍 Key Features
+- 🚀 **Real-time routing** for dynamically arriving delivery orders
+- 🧠 **Q-learning agents** trained offline, deployed online for fast decisions
+- 🌆 **Hierarchical city partitioning** for scalable and modular delivery zones
+- 📊 Tested across multiple U.S. cities (New York, Philadelphia, Chicago, Columbus)
+- 📈 Outperforms baseline methods like DeliverAI and point-to-point routing
+
+## 🛠 Components
+- **QCense**: City data aggregation and census-based feature extraction
+- **Hotspot/Superspot Selector**: Clustering logic to define city partitions
+- **QuikSim**: A discrete-event simulator to benchmark delivery performance
+- **Training Modules**: CTDE-based Q-learning for intra- and inter-cluster routing
+
+## 📄 Paper & Results
+This work was submitted to IEEE (2025).
+
