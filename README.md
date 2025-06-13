@@ -18,3 +18,5 @@
 ## 📄 Paper & Results
 This work was submitted to IEEE (2025).
 
+## How To:
+This is meant to be run using Google Colab. Download the repo and set your paths accordingly
